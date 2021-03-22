@@ -180,6 +180,9 @@ margin-bottom:35px;
     float:left;
     width:90%;
 }
+.btn{
+    line-height: 30px;;
+}
 @media(min-width:300px) and (max-width:767px){
     .navbar-expand-lg .navbar-nav{
         width:100%;
@@ -189,41 +192,19 @@ margin-bottom:35px;
         overflow-y:visible ;
     }
     header{
-        padding-top:10px
+        padding-top:30px
     }
 
-
-.socialIcons li{
-        float: none;
-}
-
-
-.circle{
-    display: none;
-}
-.heroText{
-    margin-top: 85px;;
-}
-.subscribeBox{
-    width:100%;
-    margin-top:20px;
-}
-.shap {
-    right: -100px;
-    top: 83px;
-    width: 208px;
-    height: 23px;
-}
-.heroText h5 span{
-    margin-right:0;
-    display: block;
-}
-.fa-map-marker-alt{
-    font-size:35px;
-}
-.socialIcons{
-    margin-top:20px;
-}
+    .EventCountDown li{
+        margin-right:0;
+        display: block;
+    }
+    .modal-dialog{
+        max-width: 100%;;
+    }
+    .modal-body .row i{
+        margin-top:20px;
+    }
 }
 @media(min-width:768px) and (max-width:1023px){
 
@@ -231,24 +212,30 @@ margin-bottom:35px;
         font-size:14px
     }  
 
-    .heroText h5 span{
-        margin-right: 0;
+    .EventCountDown li span{
+        font-size:2.5em
     }
-
-.circle2 {
-    position: absolute;
-    left: 7%;
-    bottom: 50%;}
-    .heroText {
-        margin-top: 123px;
+    .EventCountDown{
+        margin-top:70px;
     }
-    .shap{
-        top:117px;
+    .socialIcons{
+        left:4%;
+        top:45%;
     }
+    .EventCountDown li{
+        margin-right:25px;
+    }
+    .hero h1{margin-top:70px;}
 }
 @media(min-width:1023px) and (max-width :1200px) {
 
-    .heroText {
-        margin-top: 176px;
+    .EventCountDown li span{
+        font-size:2.5em
+    }
+    .EventCountDown{
+        margin:50px 0
+    }
+    .socialIcons{
+        top:55%;
     }
 }
