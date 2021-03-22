@@ -60,7 +60,7 @@
               <span>Seconds</span>
             </li>
           </ul>
-          <a href="#" class="btn buckBtn">book ticket</a>
+          <a href="#" class="btn buckBtn" data-toggle="modal" data-target="#bookModal">book ticket</a>
       
         </div>
         <div class="col-md-8">
@@ -71,14 +71,37 @@
     </div>
   </section>
 
-
+  <div class="modal fade" id="bookModal" tabindex="-1" role="dialog" aria-labelledby="bookModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-body">
+          <div class="modalLogo">
+            <img src="assets/images/eventLogo.png" alt="">
+          </div>
+          <h2>You Can Purchase Event Tickets From The Following Addresses</h2>
+          <div class="row">
+            <div class="col-md-6">
+              <i class="fas fa-map-marker-alt"></i>
+              <span>Lorem Ipsum Is Simply Dummy Text Of Printing And Typesetting Industry. Lorem Ipsum Has Been The Industry's Standard Text</span>
+            </div>
+            <div class="col-md-6">
+              <i class="fas fa-map-marker-alt"></i>
+              <span>Lorem Ipsum Is Simply Dummy Text Of Printing And Typesetting Industry. Lorem Ipsum Has Been The Industry's Standard Text</span>
+            </div>
+          </div>
+            <a href="#" class="buckBtn btn float-right submitModal"> ok</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  
   <script type="text/javascript" src="assets/js/jquery.js"></script>
   <script type="text/javascript" src="assets/js/popper.js"></script>
   <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
   <script type="text/javascript" src="assets/js/main.js"></script>
   <script type="text/javascript" src="assets/js/downcounter.js"></script>
 
-  <!--Start GalleryScript-->
+<script></script>
 </body>
 
 </html>
